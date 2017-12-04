@@ -1,9 +1,5 @@
- ____  __.__       .__     /\           ________       .__                           ________
-|    |/ _|__|______|__| ___)/  ______  /  _____/_____  |  | _____     _________     /  _____/_____    _____   ____
-|      < |  \_  __ \  |/    \ /  ___/ /   \  ___\__  \ |  | \__  \   / ___\__  \   /   \  ___\__  \  /     \_/ __ \
-|    |  \|  ||  | \/  |   |  \\___ \  \    \_\  \/ __ \|  |__/ __ \_/ /_/  > __ \_ \    \_\  \/ __ \|  Y Y  \  ___/
-|____|__ \__||__|  |__|___|  /____  >  \______  (____  /____(____  /\___  (____  /  \______  (____  /__|_|  /\___  >
-        \/                 \/     \/          \/     \/          \//_____/     \/          \/     \/      \/     \/
+
+Kirin’s Galaga Implementation 
 
 INFO:
 This is my implementation of the popular game Galaga. It is written solely in Java.
@@ -12,7 +8,7 @@ HOW TO USE:
 All files are included so the game begins by running the file Game.java in the controller folder.
 
 
-BASIC REQUIREMENTS:
+BASIC FEATURES:
 1st - Ship can move from right to left on screen
 2nd - Bottom left displays how many lives are left for the ship. Top left displays the current score.
 3rd - Red and blue fighters come in a bezier style (fancy) movement before they get into formation. Red fighters come in from left
@@ -48,10 +44,3 @@ Shield:
 A shield falls down from the top of the screen and the player must catch it if he/she wants to use it. Once the player captures the shield the players'
 ship turns green and it does not lose a life if it comes in contact with a bullet.
 
-
-__________.__                   __           ._.
-\__    ___/|  |__ _____    ____ |  | __  _____| |
-  |    |   |  |  \\__  \  /    \|  |/ / /  ___/ |
-  |    |   |   Y  \/ __ \|   |  \    <  \___ \ \|
-  |____|   |___|  (____  /___|  /__|_ \/____  >__
-                \/     \/     \/     \/     \/ \/
